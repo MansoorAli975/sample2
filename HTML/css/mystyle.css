@@ -1,0 +1,44 @@
+img {
+  width: 100px;
+  border-radius: 50px;
+  float: left;
+  margin-right: 10px;
+  background: darkcyan;
+  background-color: darkorchid;
+}
+.username {
+  font-weight: bold;
+  color: Blue;
+  background-color: rgb(198, 163, 231);
+  font-size: 150%;
+  text-align: center;
+}
+.story {
+  color: rgb(119, 0, 255);
+  background-color: rgb(198, 163, 231);
+  text-align: left;
+  line-height: 120%;
+  left: auto;
+}
+h1 {
+  color: chocolate;
+  text-shadow: black;
+  text-decoration-color: black;
+}
+
+h1 span {
+  background-color: darkblue;
+}
+
+html {
+  background-color: aquamarine;
+  background-size: cover;
+}
+.description {
+  font-style: oblique;
+  flex-wrap: wrap-reverse;
+  text-decoration-color: rgb(226, 198, 43);
+  text-shadow: currentColor;
+  font-size: larger;
+  text-decoration-line: underline;
+}
