@@ -19,26 +19,44 @@ img {
   text-align: left;
   line-height: 120%;
   left: auto;
+  display: inline;
+  float: right;
 }
 h1 {
   color: chocolate;
   text-shadow: black;
   text-decoration-color: black;
+  padding: 5px;
 }
 
 h1 span {
   background-color: darkblue;
 }
 
-html {
-  background-color: aquamarine;
-  background-size: cover;
-}
 .description {
   font-style: oblique;
   flex-wrap: wrap-reverse;
-  text-decoration-color: rgb(226, 198, 43);
+  text-decoration-color: rgb(141, 226, 43);
   text-shadow: currentColor;
   font-size: larger;
   text-decoration-line: underline;
+  color: beige;
+}
+
+body {
+  background-color: rgb(28, 0, 128);
+  background-image: url(../images/backgroundtry.jpg);
+}
+
+.check {
+  box-sizing: border-box;
+  display: inline block;
+  height: 100%;
+  width: auto;
+  tab-size: unset;
+  color: yellow;
+  padding: 20px;
+  margin: 10px 5px 5px;
+  border: solid;
+  background-color: tomato;
 }
