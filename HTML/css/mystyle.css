@@ -44,19 +44,34 @@ h1 span {
 }
 
 body {
-  background-color: rgb(28, 0, 128);
-  background-image: url(../images/backgroundtry.jpg);
+  background-image: url(https://media.giphy.com/media/3oKIPaGG4PDQgQDFZe/giphy.gif);
+  background-position-x: center;
+  background-position-y: center;
 }
 
 .check {
-  box-sizing: border-box;
-  display: inline block;
-  height: 100%;
   width: auto;
-  tab-size: unset;
+
   color: yellow;
   padding: 20px;
   margin: 10px 5px 5px;
   border: solid;
   background-color: tomato;
+  border: 25px;
+  background: -moz-linear-gradient(tomato, yellow);
+  columns: 3;
+  column-rule-style: solid;
+  column-gap: 15px;
+}
+.boderColor {
+  background-blend-mode: color-burn;
+  background: linear-gradient(rgb(3, 3, 63), rgb(178, 178, 194));
+  columns: 3;
+  column-rule-style: dotted;
+  border-radius: 5%;
+  padding: 20px;
+  margin: 10px 5px 5px;
+  color: aquamarine;
+  column-rule-color: blueviolet;
+  color: scheme 81px;
 }
